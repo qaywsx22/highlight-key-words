@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.btn {
+  height: 2rem;
+  padding: 2 5;
+  margin:0.25rem;
+  border: solid 1px #aaa;
+  outline: 0;
+  border-radius: 4px;
+}
+
+.save {
+  color: #000;
+}
+
+.clear {
+  color: #000;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);    
+}
+
+.btn:active {
+  filter: brightness(0.8);
+}
+
+.word-list {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);    
+}
